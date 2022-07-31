@@ -1,0 +1,67 @@
+body {
+    background-color: #F2F2F2;
+}
+
+main {
+    width: 50%;
+    height: 400px;
+    margin: 10% auto 0 auto;
+    display: flex;
+}
+
+img {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #F2F2F2;
+}
+
+p {
+    color: #c9d1d1;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.car {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.sedans {
+    background-color: #E38826;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.suvs {
+    background-color: #006970;
+}
+
+.luxury {
+    background-color: #004241;
+    border-radius: 0 10px 10px 0;
+}
+
+button {
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    height: 40px;
+    width: 113px;
+    margin-top: 45px;
+    mix-blend-mode: screen;
+
+}
+
+.car.luxury p {
+    /* Luxury Paragraph */
+    margin-top: 31px;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+
+}
